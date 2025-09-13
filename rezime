@@ -1,0 +1,11 @@
+Kada radimo u PyTorchu, imamo veću kontrolu nad svakim delom procesa – pišemo petlju za treniranje, sami računamo gubitke, optimizujemo i pratimo tačnost.
+To nam daje fleksibilnost, posebno ako želimo da eksperimentišemo sa arhitekturom mreže.
+To takođe znači da pišemo više koda i da je sve nižeg nivoa.
+Sa TensorFlow-om (Keras), rad nam je jednostavniji.
+Samo definišemo model, pozovemo .fit() i dobijemo treniranje, validaciju i statistiku bez dodatnog truda.
+Sve je brže i čitkije, što nam štedi vreme, pogotovo kada želimo brze rezultate.
+Što se tiče rezultata, TensorFlow model postigao je tačnost na testu 0.8932, dok je PyTorch dao 0.8848.
+Razlika nije velika, ali u ovom slučaju je Keras model bio malo precizniji.
+Ako nam je cilj brz razvoj i solidni rezultati – TensorFlow.
+Ako želimo potpunu kontrolu i duboko razumevanje šta se dešava – PyTorchu.
+U ovom konkretnom primeru, TensorFlow je bio efikasniji i praktičniji.
